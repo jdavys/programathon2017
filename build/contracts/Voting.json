@@ -1,0 +1,65 @@
+{
+  "contract_name": "Voting",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "votId",
+          "type": "uint256"
+        }
+      ],
+      "name": "vote",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "getVoter",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address[16]"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "voter",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b61025d8061001f6000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630121b93f81146100535780632b37f53c1461007b578063ab8ed1ba146100c8575b600080fd5b341561005e57600080fd5b610069600435610107565b60405190815260200160405180910390f35b341561008657600080fd5b61008e61017c565b604051808261020080838360005b838110156100b55780820151818401525b60200161009c565b5050505090500191505060405180910390f35b34156100d357600080fd5b6100de6004356101d4565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b600080821015801561011a5750600f8211155b151561012557600080fd5b336000836010811061013357fe5b0160005b6101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508190505b919050565b610184610208565b600060106102006040519081016040529190610200830182845b815473ffffffffffffffffffffffffffffffffffffffff16815260019091019060200180831161019e575b505050505090505b90565b600081601081106101e157fe5b0160005b915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6102006040519081016040526010815b60008152600019909101906020018161021857905050905600a165627a7a72305820ec7b7fd57b6b09c7668c9c5a99046f5b696cf0199b02cced86595eda09b1640c0029",
+  "networks": {
+    "1506189341430": {
+      "events": {},
+      "links": {},
+      "address": "0x3bae8cfd9d97bacf7686bc0493e51c78c3250053",
+      "updated_at": 1506192228979
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1506192228979
+}
